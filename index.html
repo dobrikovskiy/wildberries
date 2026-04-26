@@ -1,610 +1,306 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Willberries</title>
+    <title>SmartPulse | Умные счетчики для бизнеса и ЖКХ</title>
+    <meta name="description" content="Рекламный лендинг производителя умных счетчиков SmartPulse для удаленного учета электроэнергии, воды, тепла и газа.">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#0d1b2a">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/cart.js " defer></script>
-    <script src="js/search.js " defer></script>
 </head>
-<!-- class="show-goods" -->
 
 <body id="body">
-    <header class="container header px-4 px-md-0">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-lg-2 col-6">
-                <a href="index.html" class="logo-link">
-                    <img width="128" src="img/logo.svg" alt="logo: Willberries" class="logo-image">
-                </a>
-            </div>
-            <div class="col-lg-6 d-none d-lg-block">
-                <nav>
-                    <ul class="navigation d-flex justify-content-around">
-                        <li class="navigation-item">
-                            <a href="#" class="navigation-link" data-field="gender">Womens</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#" class="navigation-link" data-field="gender">Mens</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#" class="navigation-link" data-field="category">Clothing</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#" class="navigation-link" data-field="category">Accessories</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#" class="navigation-link" data-field="category">Shoes</a>
-                        </li>
-                        <li class="navigation-item">
-                            <a href="#" class="navigation-link">All</a>
-                        </li>
-
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-lg-2 d-none d-lg-block">
-                <div class="form-control search-block">
-                    <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">
-						<img src="img/search.png" alt="search">
-					</button>
-                </div>
-            </div>
-            <div class="col-lg-2 col-6 d-flex justify-content-end">
-                <button class="button button-cart">
-					<img class="button-icon" src="img/cart.svg" alt="icon: cart">
-					<span class="button-text">Cart</span>
-					<span class="button-text cart-count"></span>
-				</button>
-            </div>
-        </div>
-        <!-- /.row -->
-    </header>
-    <section class="slider swiper-container">
-        <div class="swiper-wrapper">
-            <section class="slide slide-1 swiper-slide">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-10 offset-lg-1">
-                            <span class="label">Bestseller</span>
-                            <h2 class="slide-title">Women's Alpargata Loafer</h2>
-                            <p class="slide-description">At Alpa believe in a better tomorrow, one where humanity thrives.
-                            </p>
-                            <button class="button add-to-cart" data-id="003">
-								<span class="button-price">$219</span>
-								<span class="button-text">Shop now</span>
-							</button>
-                        </div>
-                        <!-- /.col-4 offset-lg-1 -->
-                    </div>
-                    <!-- /.row -->
-                </div>
-                <!-- /.container -->
-            </section>
-            <section class="slide slide-1 swiper-slide">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-10 offset-lg-1">
-                            <span class="label">New</span>
-                            <h2 class="slide-title">Text T-Shirt</h2>
-                            <p class="slide-description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
-                            <button class="button add-to-cart" data-id="004">
-								<span class="button-price">$119</span>
-								<span class="button-text">Shop now</span>
-							</button>
-                        </div>
-                        <!-- /.col-4 offset-lg-1 -->
-                    </div>
-                    <!-- /.row -->
-                </div>
-                <!-- /.container -->
-            </section>
-            <section class="slide slide-1 swiper-slide">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-10 offset-lg-1">
-                            <span class="label">Bestseller</span>
-                            <h2 class="slide-title">Sweater Choker Neck</h2>
-                            <p class="slide-description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
-                            <button class="button add-to-cart" data-id="005">
-								<span class="button-price">$319</span>
-								<span class="button-text">Shop now</span>
-							</button>
-                        </div>
-                        <!-- /.col-4 offset-lg-1 -->
-                    </div>
-                    <!-- /.row -->
-                </div>
-                <!-- /.container -->
-            </section>
-        </div>
-        <!-- /.swiper-wrapper -->
-        <div class="slider-nav">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-1">
-                        <button class="slider-button slider-button-prev">
-							<img src="img/arrow-prev.svg" alt="icon: arrow-prev">
-						</button>
-                    </div>
-                    <!-- /.col-1 -->
-                    <div class="col-1">
-                        <button class="slider-button slider-button-next">
-							<img src="img/arrow-next.svg" alt="icon: arrow-prev">
-						</button>
-                    </div>
-                    <!-- /.col-1 -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /.slider-nav -->
-    </section>
-    <!-- /.slider -->
-    <section class="special-offers container pt-5 pb-4">
-        <div class="row mb-4">
-            <div class="col-xl-6">
-                <div class="card card-1 mb-4">
-                    <h3 class="card-title">Fashion Month Ready in Capital Shop</h3>
-                    <p class="card-text">Bags & Acsessories & Lingerie & Sportswear & Beauty & Swimwear</p>
-                    <button class="button">
-						<span class="button-text">View all</span>
-						<img src="img/arrow.svg" alt="icon: arrow" class="button-icon">
-					</button>
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col-6 -->
-            <div class="col-xl-6">
-                <div class="card card-2 mb-4">
-                    <h3 class="card-title text-light">Catch the Sun: Spring Break Styles From $5.99</h3>
-                    <p class="card-text text-light">Sweaters & Hoodies & Puffer Jackets & Coats and Jackets & Knit</p>
-                    <button class="button">
-						<span class="button-text">View all</span>
-						<img src="img/arrow.svg" alt="icon: arrow" class="button-icon">
-					</button>
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col-6 -->
-            <div class="col-xl-9 col-lg-6 mb-4">
-                <div class="card card-3">
-                    <span class="label">Bestseller</span>
-                    <h3 class="card-title large">Poplin Top <br>With Sleeve Bow</h3>
-                    <p class="card-text large">Poplin top with roll neckline, long sleeves</p>
-                    <button class="button add-to-cart" data-id="002">
-						<span class="button-price">$129</span>
-						<span class="button-text">Shop now</span>
-					</button>
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col-9 -->
-            <div class="col-xl-3 col-lg-6">
-                <div class="card card-4">
-                    <h3 class="card-title text-light mw-160">Printed Shirt with a Bow</h3>
-                    <p class="card-text text-light">Pink/Sky Blue/Yellow</p>
-                    <button class="button add-to-cart button-four" data-id="009">
-						<span class="button-price">$119</span>
-						<span class="button-text">Shop now</span>
-					</button>
-                </div>
-                <!-- /.card -->
-            </div>
-            <!-- /.col-3 -->
-        </div>
-        <!-- /.row -->
-        <div class="row align-items-center mb-4">
-            <div class="col-9">
-                <h2 class="section-title">New Arrival</h2>
-            </div>
-            <!-- /.col-9 -->
-            <div class="col-3 d-flex justify-content-end">
-                <a href="#" class="more">View All</a>
-            </div>
-            <!-- /.col-3 -->
-        </div>
-        <!-- /.row -->
-        <div class="short-goods row">
-            <div class="col-lg-3 col-sm-6">
-                <div class="goods-card">
-                    <span class="label">New</span>
-                    <!-- /.label --><img src="img/image-119.jpg" alt="image: Hoodie" class="goods-image">
-                    <h3 class="goods-title">Embroidered Hoodie</h3>
-                    <!-- /.goods-title -->
-                    <p class="goods-description">Yellow/Lilac/Fuchsia/Orange</p>
-                    <!-- /.goods-description -->
-                    <!-- /.goods-price -->
-                    <button class="button goods-card-btn add-to-cart" data-id="012">
-						<span class="button-price">$89</span>
-					</button>
-                </div>
-                <!-- /.goods-card -->
-            </div>
-            <!-- /.col-3 -->
-            <div class="col-lg-3 col-sm-6">
-                <div class="goods-card">
-                    <span class="label">New</span>
-                    <!-- /.label --><img src="img/image-120.jpg" alt="image: Faded Beach Trousers" class="goods-image">
-                    <h3 class="goods-title">Faded Beach Trousers</h3>
-                    <!-- /.goods-title -->
-                    <p class="goods-description">Navy/Ochre/Black/Khaki</p>
-                    <!-- /.goods-description -->
-                    <button class="button goods-card-btn add-to-cart" data-id="011">
-						<span class="button-price">$139</span>
-					</button>
-                    <!-- /.goods-price -->
-                </div>
-                <!-- /.goods-card -->
-            </div>
-            <!-- /.col-3 -->
-            <div class="col-lg-3 col-sm-6">
-                <div class="goods-card">
-                    <span class="label">New</span>
-                    <!-- /.label --><img src="img/image-121.jpg" alt="image: Text T-Shirt" class="goods-image">
-                    <h3 class="goods-title">Text T-Shirt</h3>
-                    <!-- /.goods-title -->
-                    <p class="goods-description">White</p>
-                    <!-- /.goods-description -->
-                    <button class="button goods-card-btn add-to-cart" data-id="010">
-						<span class="button-price">$59</span>
-					</button>
-                    <!-- /.goods-price -->
-                </div>
-                <!-- /.goods-card -->
-            </div>
-            <!-- /.col-3 -->
-            <div class="col-lg-3 col-sm-6">
-                <div class="goods-card">
-                    <span class="label">New</span>
-                    <!-- /.label --><img src="img/image-122.jpg" alt="image: Striped Long Sleeve Shirt" class="goods-image">
-                    <h3 class="goods-title">Striped Long Sleeve Shirt</h3>
-                    <!-- /.goods-title -->
-                    <p class="goods-description">Red/Sky Blue</p>
-                    <!-- /.goods-description -->
-                    <button class="button goods-card-btn add-to-cart" data-id="001">
-						<span class="button-price">$119</span>
-					</button>
-                    <!-- /.goods-price -->
-                </div>
-                <!-- /.goods-card -->
-            </div>
-            <!-- /.col-3 -->
-        </div>
-        <!-- /.row -->
-    </section>
-    <!-- /.container -->
-    <section class="long-goods">
+    <header class="site-header">
         <div class="container">
-            <div class="row align-items-center mb-4">
-                <div class="col-12">
-                    <h2 class="section-title">Category</h2>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto">
+                    <a href="#body" class="brand" aria-label="SmartPulse">
+                        <span class="brand-mark">SP</span>
+                        <span class="brand-name">SmartPulse</span>
+                    </a>
                 </div>
-                <!-- /.col-12 -->
-            </div>
-            <div class="row long-goods-list">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label --><img src="img/image-119.jpg" alt="image: Hoodie" class="goods-image">
-                        <h3 class="goods-title">Embroidered Hoodie</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">Yellow/Lilac/Fuchsia/Orange</p>
-                        <!-- /.goods-description -->
-                        <!-- /.goods-price -->
-                        <button class="button goods-card-btn add-to-cart" data-id="007">
-							<span class="button-price">$89</span>
-						</button>
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label --><img src="img/image-120.jpg" alt="image: Faded Beach Trousers" class="goods-image">
-                        <h3 class="goods-title">Faded Beach Trousers</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">Navy/Ochre/Black/Khaki</p>
-                        <!-- /.goods-description -->
-                        <button class="button goods-card-btn add-to-cart" data-id="007">
-							<span class="button-price">$139</span>
-						</button>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label --><img src="img/image-121.jpg" alt="image: Text T-Shirt" class="goods-image">
-                        <h3 class="goods-title">Text T-Shirt</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">White</p>
-                        <!-- /.goods-description -->
-                        <button class="button goods-card-btn add-to-cart" data-id="007">
-							<span class="button-price">$59</span>
-						</button>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label --><img src="img/image-122.jpg" alt="image: Striped Long Sleeve Shirt" class="goods-image">
-                        <h3 class="goods-title">Striped Long Sleeve Shirt</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">Red/Sky Blue</p>
-                        <!-- /.goods-description -->
-                        <button class="button goods-card-btn add-to-cart" data-id="001">
-							<span class="button-price">$119</span>
-						</button>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label --><img src="img/image-119.jpg" alt="image: Hoodie" class="goods-image">
-                        <h3 class="goods-title">Embroidered Hoodie</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">Yellow/Lilac/Fuchsia/Orange</p>
-                        <!-- /.goods-description -->
-                        <!-- /.goods-price -->
-                        <button class="button goods-card-btn add-to-cart" data-id="007">
-							<span class="button-price">$89</span>
-						</button>
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label --><img src="img/image-120.jpg" alt="image: Faded Beach Trousers" class="goods-image">
-                        <h3 class="goods-title">Faded Beach Trousers</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">Navy/Ochre/Black/Khaki</p>
-                        <!-- /.goods-description -->
-                        <button class="button goods-card-btn add-to-cart" data-id="007">
-							<span class="button-price">$139</span>
-						</button>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label --><img src="img/image-121.jpg" alt="image: Text T-Shirt" class="goods-image">
-                        <h3 class="goods-title">Text T-Shirt</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">White</p>
-                        <!-- /.goods-description -->
-                        <button class="button goods-card-btn add-to-cart" data-id="007">
-							<span class="button-price">$59</span>
-						</button>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label --><img src="img/image-122.jpg" alt="image: Striped Long Sleeve Shirt" class="goods-image">
-                        <h3 class="goods-title">Striped Long Sleeve Shirt</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">Red/Sky Blue</p>
-                        <!-- /.goods-description -->
-                        <button class="button goods-card-btn add-to-cart" data-id="001">
-							<span class="button-price">$119</span>
-						</button>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label --><img src="img/image-119.jpg" alt="image: Hoodie" class="goods-image">
-                        <h3 class="goods-title">Embroidered Hoodie</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">Yellow/Lilac/Fuchsia/Orange</p>
-                        <!-- /.goods-description -->
-                        <!-- /.goods-price -->
-                        <button class="button goods-card-btn add-to-cart" data-id="007">
-							<span class="button-price">$89</span>
-						</button>
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label --><img src="img/image-120.jpg" alt="image: Faded Beach Trousers" class="goods-image">
-                        <h3 class="goods-title">Faded Beach Trousers</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">Navy/Ochre/Black/Khaki</p>
-                        <!-- /.goods-description -->
-                        <button class="button goods-card-btn add-to-cart" data-id="007">
-							<span class="button-price">$139</span>
-						</button>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label --><img src="img/image-121.jpg" alt="image: Text T-Shirt" class="goods-image">
-                        <h3 class="goods-title">Text T-Shirt</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">White</p>
-                        <!-- /.goods-description -->
-                        <button class="button goods-card-btn add-to-cart" data-id="007">
-							<span class="button-price">$59</span>
-						</button>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-                <div class="col-lg-3 col-sm-6">
-                    <div class="goods-card">
-                        <span class="label">New</span>
-                        <!-- /.label --><img src="img/image-122.jpg" alt="image: Striped Long Sleeve Shirt" class="goods-image">
-                        <h3 class="goods-title">Striped Long Sleeve Shirt</h3>
-                        <!-- /.goods-title -->
-                        <p class="goods-description">Red/Sky Blue</p>
-                        <!-- /.goods-description -->
-                        <button class="button goods-card-btn add-to-cart" data-id="001">
-							<span class="button-price">$119</span>
-						</button>
-                        <!-- /.goods-price -->
-                    </div>
-                    <!-- /.goods-card -->
-                </div>
-                <!-- /.col-3 -->
-            </div>
-        </div>
-
-    </section>
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-7 mb-4 mb-xl-0">
-                    <nav>
-                        <ul class="footer-menu d-sm-flex">
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Shop</a></li>
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">About Us</a></li>
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Careers</a></li>
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">FAQ </a></li>
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Blog</a></li>
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Contacts</a></li>
+                <div class="col-lg-7 d-none d-lg-block">
+                    <nav aria-label="Главная навигация">
+                        <ul class="navigation d-flex justify-content-between">
+                            <li class="navigation-item"><a href="#solutions" class="navigation-link">Решения</a></li>
+                            <li class="navigation-item"><a href="#features" class="navigation-link">Возможности</a></li>
+                            <li class="navigation-item"><a href="#devices" class="navigation-link">Линейка</a></li>
+                            <li class="navigation-item"><a href="#contact" class="navigation-link">Контакты</a></li>
                         </ul>
                     </nav>
                 </div>
-                <!-- /.col-7 -->
-                <div class="col-lg-3 d-flex align-items-center">
-                    <span class="footer-text">Follow Us</span>
-                    <span class="footer-social d-inline-flex align-items-center">
-						<a href="#" class="social-link">
-							<img src="img/Facebook.svg" alt="Facebook">
-						</a>
-						<a href="#" class="social-link">
-							<img src="img/Twitter.svg" alt="Twitter">
-						</a>
-						<a href="#" class="social-link">
-							<img src="img/Instagram.svg" alt="Instagram">
-						</a>
-					</span>
+                <div class="col-auto">
+                    <a href="#contact" class="button header-button">Получить расчет</a>
                 </div>
-                <!-- /.col-3 -->
-                <div class="col-xl-2 col-lg-3 d-flex justify-content-lg-end mt-4 mt-lg-0">
-                    <span class="footer-text">© 2019 Universal UI Kit</span>
-                </div>
-                <!-- /.col-2 -->
             </div>
-            <!-- /.row -->
-            <hr class="footer-line mt-4 mb-4">
-            <div class="row justify-content-between">
-                <div class="col-lg-4 col-sm-9">
-                    <img class="payment-logo" src="img/visa.png" alt="visa logo">
-                    <img class="payment-logo" src="img/master-card.png" alt="master card logo">
-                    <img class="payment-logo" src="img/paypal.png" alt="paypal logo ">
-                    <img class="payment-logo" src="img/bitcoin.png" alt="bitcoin logo">
-                </div>
-                <!-- /.col-4 -->
-                <div class="col-lg-2 col-sm-1 d-flex justify-content-end">
-                    <a href="#body" class="scroll-link top-link d-flex align-items-center">
-                        <span class="top-link-text">Top</span>
-                        <img src="img/top.svg" alt="icon: arrow top">
-                    </a>
-                </div>
-                <!-- /.col-2 -->
-            </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
-    </footer>
-    <div class="overlay" id="modal-cart">
-        <div class="modal">
-            <header class="modal-header">
-                <h2 class="modal-title">Cart</h2>
-                <button class="modal-close">x</button>
-            </header>
-            <table class="cart-table">
-                <colgroup>
-                    <col class="col-goods">
-                    <col class="col-price">
-                    <col class="col-minus">
-                    <col class="col-qty">
-                    <col class="col-plus">
-                    <col class="col-total-price">
-                    <col class="col-delete">
-                </colgroup>
-                <thead>
-                    <tr>
-                        <th>Good(s)</th>
-                        <th>Price</th>
-                        <th colspan="3">Qty.</th>
-                        <th colspan="2">Total</th>
-                    </tr>
-                </thead>
-                <tbody class="cart-table__goods">
-                    <tr>
-                        <td>name</td>
-                        <td>price$</td>
-                        <td><button class="cart-btn-minus" ">-</button></td>
-						<td>2</td>
-						<td><button class=" cart-btn-plus "">+</button>
-                        </td>
-                        <td>10$</td>
-                        <td>
-                            <button class="cart-btn-delete" ">x</button></td>
-					</tr>
-				</tbody>
-				<tfoot>
-					<tr>
-						<th colspan=" 5 ">Total:</th>
-						<th class="card-table__total " colspan="2 ">10000$</th>
-					</tr>
+    </header>
 
-					</tfoot>
-			</table>
-			<form class="modal-form " action=" ">
-				<input class="modal-input " type="text " placeholder="Имя " name="nameCustomer ">
-				<input class="modal-input " type="text " placeholder="Телефон " name="phoneCustomer ">
-				<button class="button cart-buy " type="submit ">
-					<span class="button-text ">Checkout</span>
-				</button>
-			</form>
-		</div>
-	</div>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <span class="label">Производитель умных счетчиков</span>
+                        <h1 class="hero-title">Точный учет ресурсов без ручного обхода</h1>
+                        <p class="hero-description">
+                            SmartPulse выпускает интеллектуальные счетчики и платформу мониторинга для ЖКХ,
+                            девелоперов и промышленных объектов. Данные передаются автоматически, а аварийные
+                            отклонения видны диспетчеру в реальном времени.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#contact" class="button">Запросить презентацию</a>
+                            <a href="#features" class="secondary-link">Смотреть возможности</a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-card">
+                                <strong>99,8%</strong>
+                                <span>точность передачи данных</span>
+                            </div>
+                            <div class="stat-card">
+                                <strong>12 лет</strong>
+                                <span>срок службы батареи</span>
+                            </div>
+                            <div class="stat-card">
+                                <strong>24/7</strong>
+                                <span>удаленный мониторинг</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="meter-showcase" aria-label="Иллюстрация умного счетчика SmartPulse">
+                            <div class="signal signal-one"></div>
+                            <div class="signal signal-two"></div>
+                            <div class="meter-device">
+                                <div class="meter-screen">
+                                    <span>SP-M4</span>
+                                    <strong>08472.6</strong>
+                                    <small>кВт·ч</small>
+                                </div>
+                                <div class="meter-grid">
+                                    <span></span><span></span><span></span>
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="meter-status">
+                                    <span class="status-dot"></span>
+                                    NB-IoT online
+                                </div>
+                            </div>
+                            <div class="dashboard-card">
+                                <span>Пиковая нагрузка</span>
+                                <strong>-18%</strong>
+                                <small>после балансировки</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <p class="eyebrow">Для объектов любого масштаба</p>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="partner-list">
+                            <span>ЖКХ</span>
+                            <span>Девелоперы</span>
+                            <span>Промышленность</span>
+                            <span>Энергосбыт</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="solutions">
+            <div class="container">
+                <div class="row align-items-end mb-4">
+                    <div class="col-lg-7">
+                        <span class="label">Решения</span>
+                        <h2 class="section-title">Единая экосистема учета</h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="section-lead">
+                            Счетчики, шлюзы связи и облачный кабинет работают как единый контур: от монтажа
+                            до аналитики потребления и выгрузки отчетов.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <article class="solution-card">
+                            <span class="card-icon">01</span>
+                            <h3>Автоматический сбор</h3>
+                            <p>Показания по электроэнергии, воде, теплу и газу поступают по расписанию без участия жильцов.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <article class="solution-card accent-card">
+                            <span class="card-icon">02</span>
+                            <h3>Контроль потерь</h3>
+                            <p>Система выявляет нештатные скачки, обратный поток, вскрытие корпуса и обрывы связи.</p>
+                        </article>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <article class="solution-card">
+                            <span class="card-icon">03</span>
+                            <h3>Интеграция с биллингом</h3>
+                            <p>API и регулярные выгрузки помогают передавать данные в учетные системы без ручных таблиц.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section features-section" id="features">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 mb-4 mb-lg-0">
+                        <span class="label">Возможности</span>
+                        <h2 class="section-title">Технологии, которые окупаются в эксплуатации</h2>
+                        <p class="section-lead">
+                            SmartPulse снижает стоимость обходов, помогает быстрее находить аварии и делает
+                            потребление прозрачным для управляющих компаний и потребителей.
+                        </p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <span></span>
+                                <div>
+                                    <h3>Связь NB-IoT, LoRaWAN и RS-485</h3>
+                                    <p>Подберите канал под плотную городскую застройку, коттеджный поселок или промышленную сеть.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <span></span>
+                                <div>
+                                    <h3>Защита от вмешательства</h3>
+                                    <p>Датчики магнитного поля, вскрытия корпуса и обратного хода фиксируют подозрительные события.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <span></span>
+                                <div>
+                                    <h3>Личный кабинет и отчеты</h3>
+                                    <p>Дашборды показывают динамику потребления, задолженности и тревоги по каждому объекту.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <span></span>
+                                <div>
+                                    <h3>Быстрое внедрение</h3>
+                                    <p>Паспорта устройств, QR-активация и групповые настройки ускоряют монтажные работы.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="devices">
+            <div class="container">
+                <div class="row align-items-end mb-4">
+                    <div class="col-lg-7">
+                        <span class="label">Линейка</span>
+                        <h2 class="section-title">Счетчики под разные ресурсы</h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="section-lead">Корпуса рассчитаны на эксплуатацию в подъездах, техпомещениях и на производственных объектах.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 mb-4">
+                        <article class="device-card">
+                            <div class="device-illustration electric"></div>
+                            <h3>SP-Energy</h3>
+                            <p>Одно- и трехфазный учет электроэнергии.</p>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4">
+                        <article class="device-card">
+                            <div class="device-illustration water"></div>
+                            <h3>SP-Water</h3>
+                            <p>Холодная и горячая вода с защитой от протечек.</p>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4">
+                        <article class="device-card">
+                            <div class="device-illustration heat"></div>
+                            <h3>SP-Heat</h3>
+                            <p>Тепловая энергия и параметры теплоносителя.</p>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-4">
+                        <article class="device-card">
+                            <div class="device-illustration gas"></div>
+                            <h3>SP-Gas</h3>
+                            <p>Газовый учет с автономным питанием и архивом.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section" id="contact">
+            <div class="container">
+                <div class="cta-card">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <span class="label">Проектный расчет</span>
+                            <h2>Подберите конфигурацию для вашего объекта</h2>
+                            <p>Оставьте заявку, и инженер SmartPulse подготовит перечень счетчиков, схему связи и ориентировочную экономику внедрения.</p>
+                        </div>
+                        <div class="col-lg-5">
+                            <form class="contact-form">
+                                <input type="text" name="name" placeholder="Ваше имя" aria-label="Ваше имя">
+                                <input type="tel" name="phone" placeholder="Телефон" aria-label="Телефон">
+                                <input type="email" name="email" placeholder="E-mail" aria-label="E-mail">
+                                <button class="button" type="submit">Отправить заявку</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-5 mb-3 mb-lg-0">
+                    <a href="#body" class="brand footer-brand" aria-label="SmartPulse">
+                        <span class="brand-mark">SP</span>
+                        <span class="brand-name">SmartPulse</span>
+                    </a>
+                    <p class="footer-text">Умные счетчики и платформа учета ресурсов для современной инфраструктуры.</p>
+                </div>
+                <div class="col-lg-5">
+                    <ul class="footer-menu d-sm-flex justify-content-lg-end">
+                        <li class="footer-menu-item"><a href="#solutions" class="footer-menu-link">Решения</a></li>
+                        <li class="footer-menu-item"><a href="#features" class="footer-menu-link">Возможности</a></li>
+                        <li class="footer-menu-item"><a href="#devices" class="footer-menu-link">Линейка</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 d-flex justify-content-lg-end mt-3 mt-lg-0">
+                    <a href="#body" class="top-link">Наверх</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
